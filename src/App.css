@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.rating-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.rating-container > .label {
+  margin: 10px;
+}
+
+.star {
+  margin: 5px;
+  color: gray;
+  border-radius: 2px;
+}
+
+.hovered {
+  color:goldenrod !important;
+}
+
+.filled {
+  color: gold !important;
+}
